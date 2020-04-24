@@ -64,9 +64,9 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-    </p>
+    </p><hr>
+
     </div>
-<hr>
   )
 }
 
