@@ -9,13 +9,7 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
+      <h1>
         <Link
           style={{
             boxShadow: `none`,
@@ -59,9 +53,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, 
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="#">Get Published</a>
       </footer>
     </div>
   )
