@@ -43,7 +43,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >  <p>
-        <h3> <strong>{author.name}</strong> </h3> </p><p>{author.summary}</p>
+        <h3> <strong>{author.name}</strong> </h3> {author.summary}
         {` `}
 
         <a href={`https://twitter.com/${social.twitter}`}>
@@ -57,14 +57,14 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
-          minWidth: 50,
+          minWidth: 75,
           borderRadius: `100%`,
         }}
         imgStyle={{
           borderRadius: `50%`,
         }}
       />
-    
+    </p>
     </div>
   )
 }
